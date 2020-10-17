@@ -1,0 +1,25 @@
+{
+  "name": "ID Finder",
+  "version": "1.0",
+  "description": "Find the closest element ID to a clicked location on screen",
+  "permissions": ["activeTab","declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/16x16_kitty_tea.ico",
+      "48": "images/48x48_kitty_tea.ico",
+      "128": "images/128x128_kitty_tea.ico"
+    }
+  },
+  "icons": {
+    "16": "images/16x16_kitty_tea.ico",
+    "48": "images/48x48_kitty_tea.ico",
+    "128": "images/128x128_kitty_tea.ico"
+  },
+
+  "manifest_version": 2
+}
